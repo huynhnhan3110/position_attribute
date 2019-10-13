@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h3>Position: relative</h3>
+    <div class="container flex">
+        <div class="box green"></div>
+        <div class="box yellow relative"></div>
+        <div class="box red"></div>
+    </div>
+    <h3>Position: fixed</h3>
+    <div class="container">
+        <div class="box green">1</div>
+        <div class="box blue">2</div>
+        <div class="box black">3</div>
+        <div class="box yellow fixed">4</div>
+        <div class="box red">5</div>
+        <div class="box green">6</div>
+        <div class="box blue">76</div>
+        <div class="box yellow">7</div>
+        <div class="box black">8</div>
+        <div class="box red">9</div>
+    </div>
+    <h3>Position: absolute</h3>
+    <div class="big_box green relative">
+        <div class="small_box yellow">
+            <div class="child_box black absolute"></div>
+        </div>
+    </div>
 </body>
 </html>
